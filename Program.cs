@@ -8,43 +8,11 @@ class Program
     {
         Console.WriteLine("String, int, double, char, bool");
 
-        Publicstringclass();
-        Publicinterclass();
-        Publicdoubleclass();
-        Publiccharclass();
-        Boolclass();
-
+        GetAll getAll = new GetAll();
+        getAll.Publicstringclass();
+        getAll.Publicinterclass();
+        getAll.Publicdoubleclass();
+        getAll.Publiccharclass();
+        getAll.Boolclass();
     }
-    static void Publicstringclass()
-    {
-        Stringclass myStringclass = new Stringclass();
-
-        myStringclass.WriteLine();
-    }
-
-    static void Publicinterclass()
-    {
-        Integer myIntegerclass = new Integer();
-
-        myIntegerclass.WriteLine();
-    }
-
-    static void Publicdoubleclass()
-    {
-        Doubleclass myDoubleclass = new Doubleclass();
-
-        myDoubleclass.WriteLine();
-    }
-
-    static void Publiccharclass()
-    {
-        Characterclass myCharacterclass = new Characterclass();
-        myCharacterclass.WriteLine();
-    }
-
-    static void Boolclass()
-    {
-        Booleanclass myBoolclass = new Booleanclass();
-        myBoolclass.WriteLine();
-    } 
 }

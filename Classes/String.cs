@@ -1,3 +1,4 @@
+using System;
 namespace Sidcb;
 
 public class Stringclass
@@ -8,5 +9,4 @@ public class Stringclass
         Console.WriteLine($"Stringclass:{Istringclass}");
         Console.WriteLine("This class outputs a string. string Istringclass must be named in Stringclass: as code over shows");
     }
-        
 }

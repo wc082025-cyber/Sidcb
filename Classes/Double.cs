@@ -1,3 +1,4 @@
+using System;
 namespace Sidcb;
 
 public class Doubleclass
